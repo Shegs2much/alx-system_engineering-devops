@@ -1,2 +1,2 @@
 #!/bin/bash
-printf -d, - - | cut -d, -fl
+printf  - - | cut -d$'\t'  -f1
